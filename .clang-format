@@ -1,0 +1,46 @@
+BasedOnStyle: LLVM
+
+# No line length limit
+ColumnLimit: 0
+
+# Attach braces to functions, classes, control statements
+BreakBeforeBraces: Attach
+
+# Don't break/collapse short things
+AllowShortFunctionsOnASingleLine: None
+AllowShortIfStatementsOnASingleLine: Never
+AllowShortLoopsOnASingleLine: false
+AllowShortBlocksOnASingleLine: Never
+AllowShortCaseLabelsOnASingleLine: false
+AllowShortLambdasOnASingleLine: None
+
+# Don't break long lines
+BreakBeforeBinaryOperators: None
+BreakBeforeTernaryOperators: false
+BreakStringLiterals: false
+AlwaysBreakTemplateDeclarations: No
+AlwaysBreakBeforeMultilineStrings: false
+BreakConstructorInitializers: AfterColon
+BreakInheritanceList: AfterColon
+
+# Indentation
+IndentWidth: 2
+TabWidth: 2
+UseTab: Always
+IndentCaseLabels: true
+IndentPPDirectives: None
+
+# Spaces
+SpaceBeforeParens: ControlStatements
+SpaceBeforeCpp11BracedList: false
+SpacesInAngles: Never
+SpacesInParentheses: false
+SpacesInSquareBrackets: false
+SpaceAfterCStyleCast: false
+
+# Pointer alignment
+PointerAlignment: Right
+
+# Keep existing line breaks largely intact
+ReflowComments: false
+SortIncludes: Never
