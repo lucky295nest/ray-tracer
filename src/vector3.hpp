@@ -13,16 +13,18 @@ public:
 
 	Vector3 &operator+=(const Vector3 &other);
 	Vector3 &operator-=(const Vector3 &other);
-	Vector3 &operator*=(const Vector3 &other);
-	Vector3 &operator/=(const Vector3 &other);
+	Vector3 &operator*=(double a);
+	Vector3 &operator/=(double a);
 	Vector3 operator+(const Vector3 &other) const;
 	Vector3 operator-(const Vector3 &other) const;
-	Vector3 operator*(const Vector3 &other) const;
-	Vector3 operator/(const Vector3 &other) const;
+	Vector3 operator*(double a) const;
+	Vector3 operator/(double a) const;
 
 	double getX() const;
 	double getY() const;
 	double getZ() const;
+
+	double length() const;
 };
 
 #endif
